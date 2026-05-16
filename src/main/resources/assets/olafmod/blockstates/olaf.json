@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "olafmod:block/olaf"
+    },
+    "facing=east": {
+      "model": "olafmod:block/olaf",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "olafmod:block/olaf",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "olafmod:block/olaf",
+      "y": 270
+    }
+  }
+}

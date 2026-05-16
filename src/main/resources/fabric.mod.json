@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "olafmod",
+	"version": "${version}",
+	"name": "Olaf Mod",
+	"description": "omg to olaf",
+	"authors": [
+		"exomatic25"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/olafmod/textures/block/olaf.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.exomatic.olafmod.OlafMod"
+		],
+		"fabric-datagen": [
+			"net.exomatic.olafmod.OlafModDataGenerator"
+		],
+		"client": [
+			"net.exomatic.olafmod.OlafModClient"
+		]
+	},
+	"mixins": [
+		"olafmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": ">=1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
